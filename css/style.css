@@ -4,114 +4,202 @@
     font-family: "Poppins", serif;
     font-weight: 100;
     font-style: normal;
-  }
-  
-  .poppins-extralight {
+}
+
+.poppins-extralight {
     font-family: "Poppins", serif;
     font-weight: 200;
     font-style: normal;
-  }
-  
-  .poppins-light {
+}
+
+.poppins-light {
     font-family: "Poppins", serif;
     font-weight: 300;
     font-style: normal;
-  }
-  
-  .poppins-regular {
+}
+
+.poppins-regular {
     font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
-  .poppins-medium {
+}
+
+.poppins-medium {
     font-family: "Poppins", serif;
     font-weight: 500;
     font-style: normal;
-  }
-  
-  .poppins-semibold {
+}
+
+.poppins-semibold {
     font-family: "Poppins", serif;
     font-weight: 600;
     font-style: normal;
-  }
-  
-  .poppins-bold {
+}
+
+.poppins-bold {
     font-family: "Poppins", serif;
     font-weight: 700;
     font-style: normal;
-  }
-  
-  .poppins-extrabold {
+}
+
+.poppins-extrabold {
     font-family: "Poppins", serif;
     font-weight: 800;
     font-style: normal;
-  }
-  
-  .poppins-black {
+}
+
+.poppins-black {
     font-family: "Poppins", serif;
     font-weight: 900;
     font-style: normal;
-  }
-  
-  .poppins-thin-italic {
+}
+
+.poppins-thin-italic {
     font-family: "Poppins", serif;
     font-weight: 100;
     font-style: italic;
-  }
-  
-  .poppins-extralight-italic {
+}
+
+.poppins-extralight-italic {
     font-family: "Poppins", serif;
     font-weight: 200;
     font-style: italic;
-  }
-  
-  .poppins-light-italic {
+}
+
+.poppins-light-italic {
     font-family: "Poppins", serif;
     font-weight: 300;
     font-style: italic;
-  }
-  
-  .poppins-regular-italic {
+}
+
+.poppins-regular-italic {
     font-family: "Poppins", serif;
     font-weight: 400;
     font-style: italic;
-  }
-  
-  .poppins-medium-italic {
+}
+
+.poppins-medium-italic {
     font-family: "Poppins", serif;
     font-weight: 500;
     font-style: italic;
-  }
-  
-  .poppins-semibold-italic {
+}
+
+.poppins-semibold-italic {
     font-family: "Poppins", serif;
     font-weight: 600;
     font-style: italic;
-  }
-  
-  .poppins-bold-italic {
+}
+
+.poppins-bold-italic {
     font-family: "Poppins", serif;
     font-weight: 700;
     font-style: italic;
-  }
-  
-  .poppins-extrabold-italic {
+}
+
+.poppins-extrabold-italic {
     font-family: "Poppins", serif;
     font-weight: 800;
     font-style: italic;
-  }
-  
-  .poppins-black-italic {
+}
+
+.poppins-black-italic {
     font-family: "Poppins", serif;
     font-weight: 900;
     font-style: italic;
-  }
+}
 
 /* common css styles */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", serif;
+}
+
+/* header section css start ------------------------------------------------------------------------- */
+header {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* nav related css */
+nav {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 1.37rem;
+    color: rgb(58, 58, 58);
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu li {
+    list-style: none;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+}
+
+
+
+/* main section css start ------------------------------------------------------------------------- */
+main {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* banner related css */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-info{
+    width: 50%;
+}
+
+.banner-info h1 {
+    font-size: 2.93rem;
+    margin-bottom: 10px;
+}
+
+.banner-info p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.banner-info button {
+    border-radius: 30px;
+    background: rgb(224, 44, 109);
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    color: white;
+}
+
+.banner-photo{
+    width: 50%;
+    width: 435px;
+    height: 435px;
+    padding: 50px;
+    border-radius: 50%;
+    border: 2px solid rgba(237, 159, 237, 0.521);
+}
+
+.banner-photo img{
+    width: 100% ;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgba(177, 158, 196, 0.364);
 }
