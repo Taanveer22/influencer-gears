@@ -120,6 +120,7 @@
 header {
     max-width: 1024px;
     margin: 0 auto;
+    margin-bottom: 90px;
 }
 
 /* nav related css */
@@ -163,6 +164,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 90px;
 }
 
 .banner-info{
@@ -190,9 +192,9 @@ main {
 
 .banner-photo{
     width: 50%;
-    width: 435px;
-    height: 435px;
-    padding: 50px;
+    width: 27rem;
+    height: 27rem;
+    padding: 3rem;
     border-radius: 50%;
     border: 2px solid rgba(237, 159, 237, 0.521);
 }
@@ -203,3 +205,12 @@ main {
     border-radius: 50%;
     background-color: rgba(177, 158, 196, 0.364);
 }
+
+/* sponsors related css */
+.sponsors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
