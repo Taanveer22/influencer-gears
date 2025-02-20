@@ -22,6 +22,11 @@
         justify-content: space-around;
     }
 
+    .cards-continer{
+        grid-template-columns: repeat(2, 1fr);
+        align-content: center;
+    }
+
 }
 
 
@@ -69,5 +74,10 @@
 
     .featured{
         flex-direction: column;
+    }
+
+    .cards-continer{
+        grid-template-columns: repeat(1, 1fr);
+        align-content: center;
     }
 }
