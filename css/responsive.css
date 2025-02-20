@@ -12,7 +12,14 @@
     }
 
     .sponsors {
-        flex-wrap: wrap;
+        gap: 10px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .featured{
+        gap: 20px;
+        justify-content: space-around;
     }
 
 }
@@ -58,5 +65,9 @@
     .sponsors {
         flex-direction: column;
         gap: 20px;
+    }
+
+    .featured{
+        flex-direction: column;
     }
 }

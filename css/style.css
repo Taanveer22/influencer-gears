@@ -214,3 +214,47 @@ main {
     margin-bottom: 90px;
 }
 
+/* featured related css */
+.featured{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.featured-photo{
+    width: 50%;
+}
+
+.featured-photo img{
+    width: 100%;
+}
+
+.featured-text h1{
+    font-size: 2rem;
+}
+
+.featured-text{
+    width: 50%;
+}
+
+.featured-text h1{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.featured-text p{
+    font-size: 0.85rem;
+    color: rgb(108, 108, 108);
+    margin-bottom: 10px;
+}
+
+.featured-text button{
+    font-size: 0.85rem;
+    color: white;
+    background-color: rgb(224, 44, 109);
+    padding: 10px 20px;
+    border: none;
+}
+
