@@ -227,6 +227,7 @@ main {
 .cards-continer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    align-content: center;
     gap: 20px;
 }
 
@@ -317,4 +318,13 @@ main {
     background-color: rgb(224, 44, 109);
     padding: 10px 20px;
     border: none;
+}
+
+
+/* footer section css */
+footer{
+    background-color: rgb(19, 19, 54);
+    text-align: center;
+    padding: 20px;
+    color: white;
 }
