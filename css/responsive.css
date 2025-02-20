@@ -9,14 +9,6 @@
         flex-direction: column;
         gap: 20px;
     }
-
-    .banner-info{
-        width: 100%;
-    }
-
-    .banner-photo{
-        width: 100%;
-    }
     
 }
 
@@ -26,6 +18,10 @@
     nav{
         flex-direction: column;
         gap: 20px;
+    }
+
+    .nav-menu{
+        flex-direction: column;
     }
 
     .banner{
