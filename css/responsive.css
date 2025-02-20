@@ -1,41 +1,49 @@
 /* media query for medium devices */
 @media screen and (min-width: 641px) and (max-width: 768px) {
-    nav{
+    nav {
         width: 80%;
         margin: 0 auto;
     }
 
-    .banner{
+    .banner {
         flex-direction: column;
         align-items: center;
         gap: 50px;
     }
 
-    .sponsors{
+    .sponsors {
         flex-wrap: wrap;
     }
-    
+
 }
 
 
 /* media query for small devices */
 @media screen and (max-width: 640px) {
-    nav{
+    nav {
         flex-direction: column;
         gap: 10px;
     }
 
-    .nav-menu{
+    .nav-menu {
         flex-direction: column;
     }
 
-    .banner{
+    .banner {
         flex-direction: column;
         align-items: center;
         gap: 30px;
     }
 
-    .sponsors{
+    .banner-info {
+        width: 100%;
+    }
+
+    .banner-photo {
+        width: 100%;
+    }
+
+    .sponsors {
         flex-direction: column;
         gap: 20px;
     }
