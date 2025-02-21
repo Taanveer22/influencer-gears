@@ -151,6 +151,10 @@ nav {
     color: rgb(58, 58, 58);
 }
 
+.hamburger-menu{
+    display: none;
+}
+
 
 
 /* main section css start ------------------------------------------------------------------------- */
